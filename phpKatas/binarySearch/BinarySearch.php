@@ -10,10 +10,6 @@ class BinarySearch
             return -1;
         }
 
-        if ($haystackSize == 1 && $haystack[0] == $needle) {
-            return 0;
-        }
-
         $from = 0;
         $to = $haystackSize -1;
 
